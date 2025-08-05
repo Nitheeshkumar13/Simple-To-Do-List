@@ -1,4 +1,4 @@
-/* Base Styles */
+
 body {
   font-family: Arial, sans-serif;
   background-color: lightblue;
@@ -64,7 +64,7 @@ h2 {
   padding: 5px;
 }
 
-/* 📱 Tablets (601px–1024px) */
+
 @media screen and (max-width: 1024px) and (min-width: 601px) {
   .wrapper {
     padding: 20px;
@@ -81,7 +81,6 @@ h2 {
   }
 }
 
-/* 📱 Mobile (≤600px) — Merged block */
 @media screen and (max-width: 600px) {
   body {
     background-color: #ffe4e1; /* Light pink for visual confirmation */
@@ -110,3 +109,4 @@ h2 {
     font-size: 14px;
   }
 }
+
